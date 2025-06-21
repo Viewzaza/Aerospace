@@ -1,7 +1,8 @@
 #@View the albedo model from Sasaki et al. (2023)
 # This script computes the global mean albedo based on the coefficients
 # provided in the paper "A new model for the global albedo of the Earth"
-
+#oh yes, I can help you with that. Below is a Python script that calculates the global mean albedo
+# by using the coefficients from Sasaki et al. (2023).
 import numpy as np
 
 # Coefficients a_{l,i} from Sasaki et al. (Table 3)
