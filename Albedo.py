@@ -26,4 +26,4 @@ for t in t_vals:
 global_albedo = {t: a_t[t][0]/(2*np.sqrt(np.pi)) for t in t_vals}
 print("Date       DOY  Global mean albedo")
 for t, doy in zip(t_vals, doys):
-    print(f"{2023}-{(doy):03d}   {doy:3d}    {global_albedo[t]:.3f}")
+    print(f"{2023}-{(doy):03d}   {doy:3d}    {global_albedo[t]:.10f}")
